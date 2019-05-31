@@ -1,0 +1,219 @@
+$main-color: #FF6EFF;
+
+nav {
+    color: $main-color;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: $main-color;
+
+  }
+  a:visited {
+    text-decoration: none;
+    color: $main-color;
+
+  }
+  .logo {
+    width: 55px;
+    justify-content: center;
+    padding-left: 10px;
+    height: auto;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu {
+    justify-content: center;
+    padding-right: 20px;
+  }
+  #menu {
+    display: none;
+  }
+   
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  #banner {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  .somos {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .loguitos {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .linkedin,
+  .git {
+    width: 60px;
+    height: auto;
+    margin-right: 10%;
+  }
+  .linkedin img,
+  .git img, .logoDos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logoDos {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+  }
+ 
+  .texto {
+    width: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+ 
+  h1 {
+    color: crimson;
+  }
+ 
+  .user {
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: space-around; 
+      margin-top: 30px;
+      margin-bottom: 30px;
+      align-items: center;
+           
+  }
+  .datospadre {
+      /* width: 150px; */
+      /* height: auto; */
+      display: flex;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: orangered;
+      align-items: center;
+      text-align: center;
+  }
+  .nombres {
+    display: none;
+
+  }
+  .avatar {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    flex-direction: column;
+   }
+  .avatar img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  .datonombre, .desarrolladora {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 24px;
+      color: #EB8B58; 
+      position: relative;
+      top: 30px;
+      border-radius: 15%;
+      padding: 10px;     
+  }
+  
+  footer {
+    background-color: black;
+    height: 60px;
+   
+  
+  }
+  .pie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      }
+  .email {
+    color: orangered;
+    font-size: 22px;
+    margin-left: 10px;
+     
+   }
+   .email2 {
+     display: flex;
+   }
+  .mail {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+    
+   }   
+  .mail img{
+    width: 100%;
+    height: auto;
+  }   
+  .logosfooter {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+    }
+  .fb, .instagram, .tuiter{
+    width: 60px;
+    height: auto;
+    margin-right: 10%;
+  }
+  
+  .fb img, .instagram img, .tuiter img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    .menu {
+      display: none;
+    }
+    #menu {
+      display: flex;
+    }  
+    .quesomos {
+      display: flex;
+      flex-direction: column;
+     }
+    .loguitos {
+      display: none;
+    }
+    .user, .datospadre {
+      flex-direction: column;
+     
+    }
+    .datonombre, .desarrolladora {
+      display: none;
+    }
+    .nombres {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      width: 170px;
+      height: 170px;
+    }
+    footer {
+      flex-direction: column;
+      align-items: center; 
+      height: 120px;
+      }
+    .pie {
+      flex-direction: column;
+      
+    }  
+    
+      
+    }
